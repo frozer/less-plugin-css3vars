@@ -1,0 +1,28 @@
+{
+  "name": "less-plugin-css3vars",
+  "version": "1.0.0",
+  "description": "A plugin for LESS that converts CSS3 variables into LESS.",
+  "main": "./lib/index.js",
+  "author": "frozer",
+  "scripts": {
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
+  },
+  "peerDependencies": {
+    "less-plugin-functions": "^0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frozer/less-plugin-css3vars"
+  },
+  "keywords": [
+    "less",
+    "css3",
+    "css3 variables"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.6.4",
+    "jasmine-spec-reporter": "^6.0.0"
+  }
+}
