@@ -14,6 +14,10 @@
     "type": "git",
     "url": "https://github.com/frozer/less-plugin-css3vars"
   },
+  "homepage": "https://github.com/frozer/less-plugin-css3vars",
+  "bugs": {
+    "url": "https://github.com/frozer/less-plugin-css3vars/issues"
+  },
   "keywords": [
     "less",
     "css3",

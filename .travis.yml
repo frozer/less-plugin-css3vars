@@ -9,7 +9,7 @@ deploy:
   provider: npm
   email: n.halcyon@gmail.com
   api_key:
-    secure: XXX
+    secure: 6mG6ujqbDlBu0XmF5-NWjg
   on:
     tags: true
     branch: master
