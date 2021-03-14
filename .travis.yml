@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 6
+- 12
 - node
 after_success:
 - npm install -g coveralls
@@ -8,8 +8,7 @@ after_success:
 deploy:
   provider: npm
   email: n.halcyon@gmail.com
-  api_key:
-    secure: 6mG6ujqbDlBu0XmF5-NWjg
+  api_key: 0e4aeacb-7b47-4d4c-9cfe-288a4428a019
   on:
     tags: true
     branch: master
